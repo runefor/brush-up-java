@@ -8,7 +8,7 @@ public class MethodMain01 {
         System.out.println("리턴값 : " + re);
     }
 
-    static int prnStar(int data){
+    static int prnStar(int data) {
         int a = 1;
         System.out.println("data : " + data);
         return a;
