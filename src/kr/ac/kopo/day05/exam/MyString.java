@@ -35,14 +35,14 @@ public class MyString {
     }
 
     public boolean equals(MyString m2){
-        if (str == null || m2.toString() == null){
+        if (str == null || m2.str == null){
             return false;
         }
-        if(str.length() != m2.toString().length()){
+        if(str.length() != m2.str.length()){
             return false;
         }
         for(int i = 0; i < str.length(); i++){
-            if(str.charAt(i) != m2.toString().charAt(i)){
+            if(str.charAt(i) != m2.str.charAt(i)){
                 return false;
             }
         }
