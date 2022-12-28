@@ -13,6 +13,6 @@ public class Circle extends Shape{
 
     @Override
     public void prnArea() {
-        System.out.printf("반지름 %d의 %s 넓이는 %f", radius, name, getArea());
+        System.out.printf("반지름 %d의 %s 넓이는 %f\n", radius, name, getArea());
     }
 }
